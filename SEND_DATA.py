@@ -19,3 +19,4 @@ UDPClientSocket.sendto(bytesToSend, serveraddress)
 for i in message:
     bytesToSend = str.encode(i)
     UDPClientSocket.sendto(bytesToSend, serveraddress)
+#MADE CHANGES
